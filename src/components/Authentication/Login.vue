@@ -34,7 +34,6 @@
                 {{ errors.first('password') }}
             </b-form-invalid-feedback>
         </b-form-group>
-        <input type="hidden" name="provider" value="admins">
         
         <b-button
             :disabled="errors.any() || ! user.password"

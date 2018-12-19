@@ -22,8 +22,9 @@
       data () {
         return {
           user: {
-            email: 'admin@vue.com',
-            password: '@Password1'
+            email: 'admin@gmail.com',
+            password: '123456',
+            provider: 'users',
           }
         }
       },
